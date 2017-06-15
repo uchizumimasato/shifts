@@ -5,7 +5,7 @@ class CreateTimetables < ActiveRecord::Migration[5.0]
       t.date          :day
       t.date          :month
       t.string        :half
-      t.references     :user
+      t.references    :user
       t.timestamps
     end
   end
