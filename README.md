@@ -1,24 +1,19 @@
-# README
+#テーブルのカラム
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##usersテーブル
+|column |type|
+|:-----:|:------:|
+|name   |string|
+|status |string|
 
-Things you may want to cover:
+##timeテーブル
+|column|type|
+|:-----:|:-----:|
+|period     |time|
+|day      |date|
+|month    |date|
+|half     |string|
+|user_id  |references|
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#テーブル同士のアソシエーション
+###usersテーブルとtimesテーブル=一対多
