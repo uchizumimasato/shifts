@@ -9,7 +9,7 @@
 ##timeテーブル
 |column|type|
 |:-----:|:-----:|
-|period     |time|
+|period   |time|
 |day      |date|
 |month    |date|
 |half     |string|
